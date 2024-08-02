@@ -3,10 +3,10 @@
 echo
 echo "=== RouterOS ==="
 echo "=== https://github.com/rasta-team ==="
-echo "=== MikroTik 7.15.3 Installer ==="
+echo "=== MikroTik 6.49.15 Installer ==="
 echo
 sleep 3
-wget https://download.mikrotik.com/routeros/7.15.3/chr-7.15.3.img.zip -O chr.img.zip  && \
+wget https://download.mikrotik.com/routeros/6.49.15/chr-6.49.15.img.zip -O chr.img.zip  && \
 gunzip -c chr.img.zip > chr.img  && \
 STORAGE=`lsblk | grep disk | cut -d ' ' -f 1 | head -n 1` && \
 echo STORAGE is $STORAGE && \
