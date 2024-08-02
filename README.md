@@ -38,7 +38,7 @@ For MikroTik 6.48.6
   bash -c "$(curl -L https://raw.githubusercontent.com/azadrahorg/Install-MikroTik-CHR-on-VPS/main/mik-6486.sh)"
 ```
 
-For MikroTik 7.15.3
+For MikroTik 6.49.15
 
 ```bash
   bash -c "$(curl -L https://raw.githubusercontent.com/rasta-team/Install-MikroTik-CHR-on-VPS/main/mik78.sh)"
